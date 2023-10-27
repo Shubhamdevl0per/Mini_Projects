@@ -1,0 +1,67 @@
+body {
+    background: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
+    padding:0;
+    margin:0
+    /* margin: 0px; */
+    /* background-color: black; */
+}
+
+.clockcontainer {
+    margin-top: 10px;
+    position: relative;
+    /* align-items: center; */
+    background: url(analog_clock.png)no-repeat;
+    background-size: 100%;
+    /* display: block; */
+    /* margin: auto; */
+    border: 23px solid silver;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+}
+
+#M_hand,
+#S_hand,
+#H_hand {
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+    /* display: block; */
+}
+
+#H_hand {
+    height: 25%;
+    width: 3%;
+    border-radius: 10px;
+    top: 25%;
+    left:49.5%;
+    /* display: none; */
+}
+
+#S_hand {
+    height: 35%;
+    width: 1.8%;
+    border-radius: 10px;
+    /* display: none; */
+    top: 15%;
+    left:49.5%;
+}
+
+#M_hand {
+    height: 30%;
+    width: 2.5%;
+    /* display: none; */
+    border-radius: 10px;
+    top: 20%;
+    left:49.2%;
+}
+.point{
+    position: relative;
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+    top: 47%;
+    left:46.8%;
+    background-color: black;
+
+} 
